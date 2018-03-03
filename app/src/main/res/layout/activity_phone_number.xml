@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carson_ho.toptabbar.PhoneNumber">
+
+    <EditText
+        android:id="@+id/et_phoneNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入新的手机号码"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_phoneNum"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="一个手机号码只能作为一个账号的登录名"
+        android:textSize="12dp"/>
+
+    <EditText
+        android:id="@+id/et_verificationCode"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView13"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:hint="请输入验证码" />
+
+    <Button
+        android:background="@color/colorGold"
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/et_phoneNum"
+        android:layout_alignTop="@+id/et_verificationCode"
+        android:text="获取验证码" />
+
+    <Button
+        android:id="@+id/button2"
+        android:background="@color/colorGold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_verificationCode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="更换手机号码"
+        />
+</RelativeLayout>

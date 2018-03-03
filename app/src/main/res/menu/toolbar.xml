@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/dingdantixing"
+        android:icon="@mipmap/dingdantixing"
+        android:title="订单详情"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/zaixiankefu"
+        android:icon="@mipmap/zaixiankefu"
+        android:title="在线客服"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/saoyisao"
+        android:icon="@mipmap/saoyisao"
+        android:title="扫一扫"
+        app:showAsAction="never"
+        />
+</menu>
